@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>SPOJ Tools</title>
+</head>
+
+<body>
+		<form method="post" action="/">{% csrf_token %}
+			{{ form.as_p }}	
+			<input class="btn" type="submit" value="Submit" />
+		</form>
+
+
+
+</body>
+</html>
